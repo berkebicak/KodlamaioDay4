@@ -1,7 +1,11 @@
-package kodlamaioödev4;
+package kodlamaioÃ¶dev4;
 
-public interface CustomerCheckService {
-	boolean checkIfCustomer(Customer customer);
+public classs CustomerCheckService {
+	public boolean checkIfCustomer(Customer customer){
+	System.out.println("Customer is valid : "+customer.getFirstName());
+	return true;
+		
+	}
 	
 
 }
